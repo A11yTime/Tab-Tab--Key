@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ManualTab/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ManualTab from './components/ManualTab.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ManualTab
   }
 }
 </script>
@@ -24,3 +23,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+./components/ManualTab.vue
